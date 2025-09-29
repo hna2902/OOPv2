@@ -46,14 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmApDung1_USCLN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmApDung1_USCLN.Designer.cs">
+      <DependentUpon>frmApDung1_USCLN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApDung2_Security.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApDung2_Security.Designer.cs">
+      <DependentUpon>frmApDung2_Security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApDung3_DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApDung3_DangNhap.Designer.cs">
+      <DependentUpon>frmApDung3_DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApDung4_ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApDung4_ListBox.Designer.cs">
+      <DependentUpon>frmApDung4_ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThucHanh1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucHanh1.Designer.cs">
+      <DependentUpon>frmThucHanh1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThucHanh2_NhaKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucHanh2_NhaKhoa.Designer.cs">
+      <DependentUpon>frmThucHanh2_NhaKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThucHanh3_XuLyDaySo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucHanh3_XuLyDaySo.Designer.cs">
+      <DependentUpon>frmThucHanh3_XuLyDaySo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmApDung1_USCLN.resx">
+      <DependentUpon>frmApDung1_USCLN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApDung2_Security.resx">
+      <DependentUpon>frmApDung2_Security.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApDung3_DangNhap.resx">
+      <DependentUpon>frmApDung3_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApDung4_ListBox.resx">
+      <DependentUpon>frmApDung4_ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThucHanh1.resx">
+      <DependentUpon>frmThucHanh1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThucHanh2_NhaKhoa.resx">
+      <DependentUpon>frmThucHanh2_NhaKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThucHanh3_XuLyDaySo.resx">
+      <DependentUpon>frmThucHanh3_XuLyDaySo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
